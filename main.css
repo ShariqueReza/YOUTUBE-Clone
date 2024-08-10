@@ -1,0 +1,106 @@
+body{
+  background-color:rgb(237, 220, 210);
+  font-family: arial;
+  z-index: 100;
+      }
+.box1{
+  width: 1250px;
+  height: 140px;
+  border: 1px rgb(237, 220, 210);
+  margin-left: 100px;
+  text-align: center;
+  font-size: 25px;
+
+}
+.text{
+  text-align: center;
+  font-size: 23px;
+  display: flex;
+  flex-direction: row;
+  word-spacing: 30px;
+  font-weight: 700;
+  font-family: arial;
+  
+}
+.box2{
+  width: 1350px;
+  height: 550px;
+  border: 1px solid rgb(7, 7, 7);
+  margin-left: 90px; 
+  margin-bottom: 90px;
+  margin-right: 90px;
+  font-weight: 700;
+  font-size: 70px;
+  display: grid;
+  grid-template-columns: 6fr 1fr;
+
+}
+.bio{
+  padding-left: 200px;
+  padding-top:50px;
+  cursor: pointer;
+}
+.portfolio{
+  padding-left:200px;
+  padding-top:50px;
+  cursor: pointer;
+}
+.podcast{
+  padding-left:200px;
+  padding-top:50px;
+  cursor: pointer;
+}
+.blog{
+  padding-left:200px;
+  padding-top:50px;
+  cursor: pointer;
+}
+.name{
+  padding-left: 40px;
+  padding-top: 50px;
+  font-size: 90px;
+}
+.intro{
+  font-size: 40px;
+  font-weight: 500;
+  padding-left: 40px;
+  padding-top: 20px;
+}
+.insta_name{
+  font-size:20px;
+  padding-left: 40px;
+  padding-top:160px;
+  cursor: pointer;
+}
+.logo{
+  padding-left: 40px;
+}
+.insta_logo{
+  height:30px;
+  width: 30px;
+  cursor: pointer;
+}
+.facebook_logo{
+  height:30px;
+  width: 30px;
+  cursor: pointer;
+}
+.twitter_logo{
+  height:30px;
+  width: 30px;
+  cursor: pointer;
+}
+.ld_logo{
+  height:30px;
+  width: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.box_divider{
+  display: inline-block;
+}
+.pic{
+  padding-left: 20px;
+  padding-top: 40px;
+  padding-right: 35px;
+}
